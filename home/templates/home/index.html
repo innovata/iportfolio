@@ -1,17 +1,16 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <title>iportfolio home</title>
-   </head>
-   <body>
-      <h1>Projects</h1>
-      <ul>
-         {% for project in projects%}
-            <li>
-               {{ project }}
-            </li>
-         {% endfor %}
-      </ul>
-   </body>
-</html>
+{% extends "home/base.html" %}
+
+{% block title %}
+   iportfolio home
+{% endblock %}
+
+{% block body %}
+   <h1>Projects</h1>
+   <ul>
+      {% for project in projects%}
+         <li>
+            <a href="{% url 'project' project.id %}">{{ project }}</a>
+         </li>
+      {% endfor %}
+   </ul>
+{% endblock %}

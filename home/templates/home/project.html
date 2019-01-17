@@ -1,0 +1,15 @@
+{% extends "home/base.html" %}
+
+{% block title %}
+   Project {{ project.id }}
+{% endblock %}
+
+{% block body %}
+   <h1>Project {{ project.id }}</h1>
+   <ul>
+      <li>name : {{ project.name }}</li>
+      <li>url : {{ project.url }}</li>
+      <li>category : {{ project.category }}</li>
+   </ul>
+   <a href="{% url 'index' %}">Back to full listing.</a>
+{% endblock %}
