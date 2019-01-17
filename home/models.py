@@ -16,4 +16,4 @@ class Project(models.Model):
     category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='classification')
 
     def __str__(self):
-        return f"pjt__{self.name}"
+        return f"{self.name}"
