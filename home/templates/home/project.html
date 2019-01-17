@@ -11,5 +11,27 @@
       <li>url : {{ project.url }}</li>
       <li>category : {{ project.category }}</li>
    </ul>
+   <h2>Coworkers</h2>
+   <ul>
+      {% for coworker in coworkers %}
+      <li>{{ coworker }}</li>
+      {% empty %}
+      <li>No one here.</li>
+      {% endfor %}
+   </ul>
+   {% if non_coworkers %}
+      <h2>Join the project</h2>
+      <form action="{% url 'join' project.id %}" method="post">
+         {% csrf_token %}
+         <select name="coworker">
+            {% for coworker in non_coworkers %}
+               <option value="{{ coworker.id }}">{{ coworker }}</option>
+            {% endfor %}
+         </select>
+         <input type="submit" value="Join">
+      </form>
+   {% else %}
+      <div>No coworkers in order to add.</div>
+   {% endif %}
    <a href="{% url 'index' %}">Back to full listing.</a>
 {% endblock %}

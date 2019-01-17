@@ -17,3 +17,11 @@ class Project(models.Model):
 
     def __str__(self):
         return f"{self.id} - {self.name}"
+
+class Coworker(models.Model):
+    name = models.CharField(max_length=20)
+    surname = models.CharField(max_length=20)
+    projects = models.ManyToManyField(Project, blank=True, related_name="coworkers")
+
+    def __str__(self):
+        return f"{self.surname} {self.name}"
