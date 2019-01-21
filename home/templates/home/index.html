@@ -9,7 +9,7 @@
    <ul>
       {% for project in projects%}
          <li>
-            <a href="{% url 'project' project.id %}">{{ project }}</a>
+            <a href="{% url 'projects' project.id %}">{{ project }}</a>
          </li>
       {% endfor %}
    </ul>

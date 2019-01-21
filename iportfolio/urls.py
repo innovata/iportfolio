@@ -18,6 +18,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('', include('home.urls')),
+    path('datamap', include('datamap.urls')),
     # djaong default setting.
     path('admin/', admin.site.urls),
 ]

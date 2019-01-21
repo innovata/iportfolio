@@ -12,7 +12,7 @@ def index(request):
     }
     return render(request, "home/index.html", context)
 
-def project(request, project_id):
+def projects(request, project_id):
     try:
         project = Project.objects.get(pk=project_id)
     except Project.DoesNotExist:
@@ -22,7 +22,7 @@ def project(request, project_id):
         'coworkers':project.coworkers.all(),
         'non_coworkers':Coworker.objects.exclude(projects=project).all()
     }
-    return render(request, "home/project.html", context)
+    return render(request, "home/projects.html", context)
 
 def join(request, project_id):
     try:
@@ -37,4 +37,4 @@ def join(request, project_id):
         return render(request, "home/error.html", {"message":"No coworker."})
 
     coworker.projects.add(project)
-    return HttpResponseRedirect(reverse("project", args=(project_id, )))
+    return HttpResponseRedirect(reverse("projects", args=(project_id, )))
