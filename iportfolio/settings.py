@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ["127.0.0.1", "0.0.0.0"]
 # Application definition
 
 INSTALLED_APPS = [
-    'datamap.apps.DatamapConfig',
+    'datamapapp.apps.DatamapappConfig',
     'home.apps.HomeConfig',
     'django.contrib.admin',
     'django.contrib.auth',
