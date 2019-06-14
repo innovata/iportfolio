@@ -1,0 +1,808 @@
+source,target,value
+2017 presidential debate,Society,7
+5G,AR,1
+5G,Artificial Intelligence,1
+5G,Mobile,1
+5G,NFV,1
+5G,Tech,1
+5G,VR,1
+90년대,Interests,5
+90년대,한국댄스음악,5
+AR,Artificial Intelligence,1
+AR,Mobile,1
+AR,NFV,1
+AR,Tech,1
+AR,VR,1
+Ahn,Avatar,1
+Ahn Hee Jung,Society,4
+Album,EDM,1
+Album,Interests,1
+Album,music,1
+Anaconda,IDE,1
+Anaconda,Tech,1
+Android,Tech,2
+Big-data,Tech,1
+Boundary of the ball,Gundam,1
+Boundary of the ball,Interests,1
+Boundary of the ball,animation,1
+Brexit,Artificial Intelligence,1
+Brexit,Samsung Electronics,1
+Brexit,Shared data,1
+Brexit,Society,1
+Brexit,Uver,1
+CLI,Tech,2
+CLI editor,Tech,1
+CLI editor,nano,1
+Car maintenance,car wash,1
+Career,CV,3
+Career,Coding skill,1
+Career,Employment,1
+Career,Interested company,7
+Career,Resume,3
+Career,Venture,1
+Career,company,1
+Career,developer,1
+Career,취업(Job search),1
+Chinese,Excellence of Hangul,1
+Chinese,Hangul,1
+Chinese,Hun-Min-Jeong-Eum,1
+Chinese,Lang,1
+Chinese,Learning method,5
+Choi Bae-geun,Artificial Intelligence,1
+Choi Bae-geun,Brexit,1
+Choi Bae-geun,Samsung Electronics,1
+Choi Bae-geun,Shared data,1
+Choi Bae-geun,Society,1
+Choi Bae-geun,Uver,1
+Choppy rice,Interests,11
+Class,Inheritance,2
+Class,Tech,2
+Clean the house,Interests,13
+Code Geass,Boundary of the ball,1
+Code Geass,Full metal panic,1
+Code Geass,Gundam,1
+Code Geass,Society,1
+Coding skill,Tech,5
+Collect,Python,1
+Collect,Tech,1
+Comfort women,Mitsubishi Heavy Industries,1
+Comfort women,Society,1
+Comfort women,sex slave,1
+Could,Ahn,1
+Could,Avatar,1
+Could,Society,1
+Css,HTML,15
+Css,Tech,15
+D3.js,Dimple.js,1
+D3.js,Source code,1
+D3.js,Tech,18
+D3.js,Visualization,4
+D3.js,bubble,2
+DB,Tech,1
+Dance,Interests,23
+Dance,TVXQ,2
+Data collection,Tech,1
+Data science,Data collection,1
+Data science,Hans Rosling,1
+Data science,Tech,26
+Data science,Visualization,3
+Django,Classic Annie,1
+Django,Lang,1
+Django,PostgreSQL,1
+Django,Spanish,1
+Django,TDD,1
+Django,Tech,9
+Django,Ubuntu,1
+Docker,Container,4
+Docker,Tech,4
+Documentary,Interests,1
+Documentary,Iran,1
+Documentary evidence,Japanese military slave,1
+Documentary evidence,Sex slave,1
+Documentary evidence,Society,1
+Dool Kim Yong Ok,Christian,2
+Dool Kim Yong Ok,Exquisite,1
+Dool Kim Yong Ok,Lang,1
+Dool Kim Yong Ok,Language learning method,1
+Dool Kim Yong Ok,Oriental Classics,4
+Dool Kim Yong Ok,education,1
+Drinking tolerance,Interests,1
+Drupal,Tech,3
+E-government,Open data,2
+E-government,Republic of Korea,2
+E-government,Tech,2
+England,Arab,1
+England,movie,1
+English,Lang,28
+English,Lincoln,1
+English,Live broadcasting,1
+English,news,1
+English,reading,2
+English,학습(學習),9
+English lyrics,Interests,1
+English lyrics,animation,1
+Europe,English,1
+Europe,Lang,1
+European inclination analysis,Interests,1
+Excellence of Hangul,Hangul,1
+Excellence of Hangul,Hun-Min-Jeong-Eum,1
+Excellence of Hangul,Lang,1
+Exercise,Crossfit,1
+Exercise,Interests,2
+Exercise,Society,1
+Exercise,health,1
+Exquisite,Lang,1
+Exquisite,Language learning method,2
+Exquisite,Oriental Classics,1
+Exquisite,education,1
+Food,Interests,1
+Foreign life,Interests,2
+Foreign reaction,German woman,1
+Foreign reaction,Interests,44
+Foreign reaction,Konglish,1
+Foreign reaction,Korea,1
+Foreign reaction,Korea Mathematics Test,1
+Foreign reaction,Korean culture,1
+Foreign reaction,Korean is a genius,1
+Foreign reaction,Korean singer,2
+Foreign reaction,Pansori,1
+Foreign reaction,What you need to learn,1
+Foreign reaction,language,1
+Foreign reaction,look,5
+Foreign reaction,music,1
+Foreign reaction,sex,1
+Free proxy,Tech,3
+Full metal panic,Boundary of the ball,1
+Full metal panic,Gundam,1
+German Press Review,Candle rally,1
+German woman,Interests,4
+Google Cloud Platform,Tech,2
+Google-Cloud-Platform,Container,1
+Google-Cloud-Platform,Django,1
+Google-Cloud-Platform,Google Cloud Platform,1
+Google-Cloud-Platform,PostgreSQL,1
+Google-Cloud-Platform,Python,1
+Google-Cloud-Platform,Tech,8
+Google-Cloud-Platform,deploy,1
+Gundam Seed,Interests,1
+Gundam Seed,animation,1
+Gundam Seed Destiny,Interests,2
+Gundam Seed Destiny,animation,1
+Gundam Seed Destiny,live,2
+Gundam Seed Destiny,music,1
+HTML,Tech,15
+Hacking,Tech,2
+Hans Rosling,Tech,1
+Hans Rosling,Visualization,1
+High school tuition,Interests,1
+High school tuition,Spain,1
+History/Culture,Brazil,1
+History/Culture,Interests,1
+History/Culture,Korean wave,1
+History/Culture,Spain,2
+Hopi,Hangul,1
+Hopi,Hun-Min-Jeong-Eum,1
+Hopi,Identity,1
+Hopi,Lang,1
+Hopi,butane,1
+How to Become a Data Scientist,Tech,2
+Hun-Min-Jeong-Eum,Hangul,19
+Hun-Min-Jeong-Eum,Identity,1
+Hun-Min-Jeong-Eum,Lang,19
+Hun-Min-Jeong-Eum,Samarkand,1
+Hwang Sang Min,Presidential election,1
+Hwang Sang Min,Society,1
+IDE,Development Tools,1
+IDE,Python,1
+IDE,Tech,1
+Identity,Hangul,1
+Identity,Lang,1
+Inheritance,Tech,2
+Interested company,Employment,1
+Interested company,company,1
+Interests,Arab,1
+Interests,Brazil,1
+Interests,Car maintenance,1
+Interests,Cooking,3
+Interests,Crossfit,1
+Interests,Document tool,1
+Interests,EDM,2
+Interests,Employment,1
+Interests,England,1
+Interests,Foreign reaction,2
+Interests,Go to your room,1
+Interests,History/Culture,6
+Interests,Ikki,2
+Interests,Iran,1
+Interests,Konglish,1
+Interests,Korean culture,7
+Interests,Korean is a genius,1
+Interests,Korean wave,1
+Interests,Kpop,8
+Interests,Madrid,8
+Interests,Mocha pot,2
+Interests,On-dol,3
+Interests,Price list,1
+Interests,Spain,12
+Interests,Sushi buffet,5
+Interests,Visa,1
+Interests,animation,26
+Interests,car wash,1
+Interests,hair,1
+Interests,health,3
+Interests,language,1
+Interests,look,5
+Interests,movie,1
+Interests,public transport,4
+Interests,sex,1
+Interests,한국댄스음악,5
+Interview,Career,1
+IoT,5G,1
+IoT,AR,1
+IoT,Artificial Intelligence,1
+IoT,Mobile,1
+IoT,NFV,1
+IoT,Tech,1
+IoT,VR,1
+Japan,Candle rally,1
+Japan,Comfort women,1
+Japan,Documentary evidence,1
+Japan,Japanese military slave,6
+Japan,Mitsubishi Heavy Industries,1
+Japan,Sex slave,5
+Japan,Society,16
+Japan,assembly,1
+Japan,sex slave,1
+Japanese,Lang,1
+Japanese Anime,Interests,1
+Japanese Anime,Society,1
+Japanese ambition,Gwanggye-tor,1
+Japanese ambition,Society,1
+Japanese ambition,블랙리스트,1
+Japanese keyboard,Hangul,1
+Japanese keyboard,Hun-Min-Jeong-Eum,1
+Japanese keyboard,Lang,1
+Japanese military slave,Comfort women,1
+Japanese military slave,Mitsubishi Heavy Industries,1
+Japanese military slave,Sex slave,5
+Japanese military slave,Society,3
+Japanese military slave,assembly,1
+Japanese military slave,sex slave,1
+Jaurim,Interests,4
+Jaurim,Kpop,4
+Jaurim,music,4
+JavaScript,Django,1
+JavaScript,Node.js,1
+JavaScript,Rapahel.js,1
+JavaScript,Tech,8
+JavaScript,Visualization,2
+Jazz,Interests,1
+KAKAO SHOP,Interests,8
+KoNLPy,NLP,1
+KoNLPy,Python,1
+KoNLPy,Tech,1
+Korea,Interests,1
+Korea Land,Argentina,1
+Korea Land,Society,1
+Korea Mathematics Test,Interests,1
+Korean,Chinese,1
+Korean,Excellence of Hangul,1
+Korean,Foreign reaction,1
+Korean,Hangul,19
+Korean,Hopi,1
+Korean,Hun-Min-Jeong-Eum,19
+Korean,Identity,1
+Korean,Interests,1
+Korean,Japanese keyboard,1
+Korean,Korean food,1
+Korean,Lang,19
+Korean,Samarkand,1
+Korean,Spanish woman Lara,1
+Korean,Uzbekistan,1
+Korean,butane,1
+Korean Characteristics,Lang,1
+Korean Characteristics,Spanish,1
+Korean Cultural Center,Interests,1
+Korean Cultural Center,Madrid,1
+Korean food,Foreign reaction,1
+Korean food,Interests,1
+Korean singer,Interests,2
+Korean wave,Brazil,1
+Korean wave,History/Culture,1
+Korean wave,Interests,1
+Lang,Chinese,73
+Lang,Classic Annie,1
+Lang,Exquisite,1
+Lang,Hangul,20
+Lang,Language learning method,7
+Lang,Learning materials,1
+Lang,Learning method,5
+Lang,Lincoln,1
+Lang,Linguistic characteristic,1
+Lang,Live broadcasting,9
+Lang,NLP,1
+Lang,Oriental Classics,1
+Lang,Spanish,4
+Lang,Spanish lyrics,2
+Lang,news,5
+Lang,reading,2
+Language Certification,Lang,1
+Language learning method,Lang,1
+Language learning method,Oriental Classics,1
+Language learning method,education,1
+Laundry,Interests,14
+Laundry,shoes,1
+Laundry,white clothes,2
+Library,Tech,1
+Library,tesseract,1
+Lincoln,reading,1
+Linguistic characteristic,Korean Characteristics,1
+Linguistic characteristic,Lang,1
+Linguistic characteristic,Spanish,1
+Listening,English,1
+Listening,Europe,1
+Listening,Lang,10
+Listening,Live broadcasting,10
+Listening,Spanish,9
+Live broadcasting,English,1
+Live broadcasting,Europe,1
+Live broadcasting,Lang,12
+Live broadcasting,news,1
+MIT Opencourseware,Artificial Intelligence,1
+MIT Opencourseware,Python,1
+MIT Opencourseware,Tech,2
+Machine Learning,Tech,2
+Madrid,Ikki,2
+Madrid,Interests,6
+Madrid,Price list,1
+Madrid,Spain,1
+Madrid,Sushi buffet,2
+Madrid,public transport,4
+Maintenance,Car maintenance,1
+Maintenance,Interests,7
+Maintenance,car wash,1
+Mazinger z,Classic Japanese Animation,1
+Messi,Interests,1
+Messi,World Cup,1
+Mexico,Interests,1
+Mexico,movie,1
+Mix,Interests,2
+Mobile,Artificial Intelligence,1
+Mobile,NFV,1
+Mobile,Tech,1
+Mobile,VR,1
+MongoDB,Tech,5
+NFV,Artificial Intelligence,1
+NFV,Tech,1
+NFV,VR,1
+NLP,Tech,10
+NLTK,NLP,1
+NLTK,Python,1
+NLTK,Tech,1
+Netflix,Interests,1
+Netflix,Mexico,1
+Netflix,movie,1
+Nicole Kidman,Arab,1
+Nicole Kidman,England,1
+Nicole Kidman,Interests,1
+Nicole Kidman,movie,1
+North Korea,Cheonanham case,1
+Nozai,Dool Kim Yong Ok,1
+Nozai,Oriental Classics,1
+Nozai,Society,1
+Nth Foreign Language,Lang,3
+OCR,Library,1
+OCR,Python,1
+OCR,Tech,1
+OCR,tesseract,1
+OOP,Class,2
+OOP,Inheritance,2
+OOP,Python,2
+OOP,Tech,2
+On-dol,Korean culture,3
+Online courses,Python,1
+Online courses,Tech,2
+PDF,Data collection,1
+PDF,Data science,1
+PDF,Python,1
+PDF,Scrape,1
+PDF,Tech,2
+Pansori,Interests,1
+Park Hyo Shin,Foreign reaction,1
+Park Hyo Shin,Interests,1
+Park Hyo Shin,Korean singer,1
+Parser,Node.js,3
+Parser,Tech,3
+Part of speech,NLP,1
+Part of speech,NLTK,1
+Part of speech,Python,1
+Part of speech,Tech,1
+PostgreSQL,Tech,3
+Programming language,Tech,4
+Programming language choice,DB,1
+Programming language choice,Tech,8
+Programming language choice,web dev,1
+Programming learning,Tech,9
+Projects,Tech,1
+Pronunciation,Lang,2
+Pronunciation,Spanish,2
+Pumbaa,Foreign reaction,1
+Pumbaa,Interests,1
+Pumbaa,Pansori,1
+Python,Class,2
+Python,IDE,4
+Python,Inheritance,2
+Python,Library,1
+Python,NLP,6
+Python,Tech,39
+Python,tesseract,1
+Rapahel.js,Tech,1
+Republic of Korea,Open data,2
+Republic of Korea,Tech,2
+Residence Permit,Employment,1
+Residence Permit,Interests,6
+Residence Permit,Spain,6
+Residence Permit,Visa,1
+Resume,CV,3
+Roh Moo Hyun,Yushimin,1
+SEO/SEM,Tech,1
+SQL,Tech,1
+SUMO,Interests,3
+SUMO,Madrid,3
+SUMO,Price list,1
+SUMO,Spain,1
+SUMO,Sushi buffet,3
+Salary,Interests,2
+Samarkand,Hangul,1
+Samarkand,Lang,1
+Samsung Electronics,Artificial Intelligence,1
+Samsung Electronics,Shared data,1
+Samsung Electronics,Uver,1
+Scrape,Collect,1
+Scrape,Data collection,1
+Scrape,Data science,1
+Scrape,Python,1
+Scrape,Tech,2
+Screen recording,IMM,1
+Sex slave,Society,2
+Sex slave,assembly,1
+Shared data,Artificial Intelligence,1
+Shared data,Uver,1
+Shortcuts,Tech,1
+Social problem,Sex lobby,1
+Social problem,Society,6
+Society,Ahn,7
+Society,Argentina,1
+Society,Artificial Intelligence,1
+Society,Avatar,1
+Society,Boundary of the ball,1
+Society,Candle rally,3
+Society,Cheonanham case,3
+Society,Choi Kyung Il,2
+Society,Christian,2
+Society,Classic Japanese Animation,1
+Society,Dool Kim Yong Ok,9
+Society,Full metal panic,1
+Society,German Press Review,1
+Society,Gundam,1
+Society,Gwanggye-tor,1
+Society,Japan,1
+Society,Japanese military slave,3
+Society,Land dissemination,2
+Society,Lee Myung Bak,7
+Society,Mazinger z,1
+Society,Mitsubishi Heavy Industries,1
+Society,North Korea,5
+Society,Oriental Classics,3
+Society,Presidential election,1
+Society,Right-wing political group,3
+Society,Roh Moo Hyun,9
+Society,Samsung Electronics,1
+Society,Sex lobby,1
+Society,Sex slave,3
+Society,Shared data,1
+Society,Sir Anna,1
+Society,South American economic crisis,1
+Society,Tariff war,1
+Society,Uver,1
+Society,Yushimin,4
+Society,assembly,1
+Society,economy,1
+Society,health,1
+Society,motherland,1
+Society,sex slave,1
+Society,블랙리스트,1
+Society,지상파-편향성,1
+Source code,Tech,1
+Spain,Employment,1
+Spain,Price list,1
+Spain,Visa,1
+Spanish,Classic Annie,1
+Spanish,Lang,33
+Spanish,Learning materials,1
+Spanish,Linguistic characteristic,1
+Spanish,Live broadcasting,9
+Spanish,Spanish lyrics,2
+Spanish,news,4
+Spanish characteristics,Korean Characteristics,1
+Spanish characteristics,Lang,1
+Spanish characteristics,Linguistic characteristic,1
+Spanish characteristics,Spanish,1
+Spanish music,Interests,3
+Spanish press,Lang,4
+Spanish press,Spanish,4
+Spanish press,news,4
+Spanish woman Lara,Foreign reaction,1
+Spanish woman Lara,Interests,1
+Spanish woman Lara,Korean food,1
+Startup,Career,1
+Startup,Venture,1
+Startup,취업(Job search),1
+Sushi buffet,Ikki,2
+Sushi buffet,Interests,4
+Sushi buffet,Madrid,7
+Sushi buffet,Price list,1
+Sushi buffet,Spain,1
+TDD,Tech,1
+TVXQ,Interests,2
+Tech,Artificial Intelligence,5
+Tech,Container,6
+Tech,Development Tools,2
+Tech,Dimple.js,1
+Tech,Express.js,3
+Tech,IDE,8
+Tech,Jupyter,1
+Tech,Node.js,37
+Tech,Open data,2
+Tech,Python,4
+Tech,Template_engine,1
+Tech,Virtualenv,2
+Tech,Visualization,3
+Tech,original,1
+Technology in movie,Tech,4
+Text editor,Development Tools,1
+Text editor,Tech,6
+Text editor,comparison,1
+Text editor,macOS,1
+The,Go to your room,1
+The,Interests,1
+The best alphabet,Hangul,1
+The best alphabet,Lang,1
+Travel,History/Culture,2
+Travel,Interests,3
+Travel,Spain,1
+Travel,culture,1
+Trump,Society,1
+UPV,AWC,4
+UPV,IMM,3
+UPV,Language Certification,1
+UPV,Screen recording,1
+UPV,education,1
+Ubuntu,Tech,2
+Uver,Artificial Intelligence,1
+Uzbekistan,Hangul,1
+Uzbekistan,Hun-Min-Jeong-Eum,1
+Uzbekistan,Lang,1
+Uzbekistan,Samarkand,1
+VR,Artificial Intelligence,1
+VR,Tech,1
+Venture,취업(Job search),1
+Virtualenv,IDE,2
+Virtualenv,Python,3
+Virtualenv,Tech,1
+Visa,Employment,1
+Visa,Interests,1
+Visa,Residence Permit,1
+Visa,Spain,1
+Visualization,Node.js,1
+Visualization,Python,2
+Visualization,Rapahel.js,1
+Visualization,Tech,22
+Visualization,Virtualenv,1
+Visualization,matplotlib,1
+Visualization,original,1
+Web framework,Drupal,3
+Web framework,Express.js,1
+Web framework,Tech,4
+What you need to learn,Interests,1
+Why Data Analysis,Tech,4
+Why Data Analysis,Visualization,4
+World Cup,Interests,1
+World history,History/Culture,1
+World history,Interests,1
+Yeonpyeong Island Shooting,Cheonanham case,3
+Yeonpyeong Island Shooting,North Korea,1
+Yeonpyeong Island Shooting,Society,3
+Yi Chan,Society,1
+Yoo Seung-min,Society,1
+Zen Bamboo,Interests,3
+Zen Bamboo,Madrid,3
+Zen Bamboo,Sushi buffet,3
+_R_,Python,1
+_R_,Tech,7
+_R_,Visualization,1
+accent,Foreign reaction,1
+accent,Interests,1
+accent,language,1
+accent,외국인 반응,1
+bubble,Tech,3
+butane,Hangul,1
+butane,Hun-Min-Jeong-Eum,1
+butane,Identity,1
+butane,Lang,1
+car,Car maintenance,1
+car,Interests,7
+car,Maintenance,7
+car,car wash,1
+car wash,Interests,6
+car wash,Maintenance,6
+car wash,car,6
+chrome_browser,Tech,3
+cleaning,Clean the house,1
+cleaning,Interests,1
+coffee,Interests,2
+coffee,Mocha pot,2
+company,Employment,1
+comparison,Tech,1
+connector,Django,1
+connector,Node.js,4
+connector,Tech,5
+corpus,Lang,1
+corpus,NLP,1
+culture,History/Culture,1
+culture,Interests,1
+culture,Spain,1
+debug,Python,3
+debug,Tech,3
+deploy,Google Cloud Platform,2
+deploy,Tech,6
+dev opinion,Tech,1
+developer,CV,1
+developer,Resume,1
+dictionary,English,5
+dictionary,Hangul,3
+dictionary,Hun-Min-Jeong-Eum,2
+dictionary,Korean,2
+dictionary,Lang,14
+dictionary,NLP,1
+dictionary,Spanish,2
+dictionary,The best alphabet,1
+dictionary,corpus,1
+distinction,Hangul,1
+distinction,Hun-Min-Jeong-Eum,1
+distinction,Korean,1
+distinction,Lang,1
+distribution,IDE,1
+distribution,Tech,1
+drama,Chinese,2
+drama,Interests,7
+drama,Lang,4
+drama,Spanish,4
+drama,animation,1
+drama,mechanic,1
+education,IMM,1
+education,Lang,1
+education,Oriental Classics,1
+english SAT,Foreign reaction,1
+english SAT,Interests,1
+english SAT,Korea,1
+extender,Tech,1
+family,Foreign reaction,1
+family,Interests,1
+family,sadness,1
+grammar,Lang,2
+grammar,Spanish,2
+live,Interests,2
+live,animation,1
+live,music,1
+macOS,CLI,2
+macOS,CLI editor,1
+macOS,MongoDB,3
+macOS,Shortcuts,1
+macOS,Tech,13
+macOS,nano,1
+matplotlib,IDE,1
+matplotlib,Python,2
+matplotlib,Tech,2
+matplotlib,Virtualenv,1
+maxfiles,MongoDB,4
+maxfiles,Tech,4
+maxfiles,macOS,3
+mechanic,Interests,1
+mechanic,animation,1
+movie,Arab,1
+movie,Chinese,6
+movie,Documentary,1
+movie,Interests,9
+movie,Iran,1
+movie,Lang,6
+music,90년대,5
+music,EDM,2
+music,Interests,32
+music,Jazz,1
+music,Korean singer,1
+music,Kpop,8
+music,Mix,2
+music,Spanish music,3
+music,한국댄스음악,5
+nano,Tech,1
+online lecture,Online courses,27
+online lecture,Tech,1
+ranking,DB,1
+ranking,Programming language choice,5
+ranking,Tech,5
+sadness,Foreign reaction,1
+sadness,Interests,1
+sex slave,Mitsubishi Heavy Industries,1
+shoes,Interests,1
+sports,History/Culture,1
+sports,Interests,1
+sports,Korean wave,1
+stock,Interests,5
+tesseract,Tech,1
+visualization,IDE,2
+visualization,Python,2
+visualization,Tech,3
+visualization,Visualization,1
+visualization,matplotlib,1
+washer,Society,1
+washer,Tariff war,1
+web dev,Tech,1
+white clothes,Interests,2
+wise saying,English,1
+wise saying,Lang,1
+wise saying,Lincoln,1
+wise saying,reading,1
+매일학습,Python,2
+매일학습,Tech,2
+블랙리스트,Gwanggye-tor,1
+서울대,Society,1
+서울대,윤석민교수,1
+서울대,조선일보,1
+서울대,지상파-편향성,1
+수신(修身),조던 피터슨(Jordan B Peterson),11
+스페인어가사,Lang,2
+스페인어가사,Spanish,2
+영어자막,Interests,1
+영어자막,Japanese Anime,1
+외국인 반응,Candle rally,1
+외국인 반응,Foreign reaction,22
+외국인 반응,Interests,22
+외국인 반응,Japan,1
+외국인 반응,Society,6
+외국인 반응,What you need to learn,1
+외국인 반응,language,1
+외국인 반응,look,5
+외국인 반응,sex,1
+윤석민교수,Society,1
+윤석민교수,조선일보,1
+윤석민교수,지상파-편향성,1
+인종차별,Interests,1
+인종차별,Spain,1
+인종차별,한국성형,1
+인터넷공유기,Tech,1
+인터넷공유기,extender,1
+일본고전애니,Interests,1
+전문가(Expert)의 허상,Interests,2
+조선일보,Society,1
+조선일보,지상파-편향성,1
+중용(中庸),Dool Kim Yong Ok,3
+중용(中庸),Exquisite,2
+중용(中庸),Lang,2
+중용(中庸),Language learning method,2
+중용(中庸),Oriental Classics,3
+중용(中庸),Society,2
+중용(中庸),education,1
+중용(中庸),수신(修身),2
+취업(Job search),Career,16
+취업(Job search),Coding skill,1
+취업(Job search),UPV,9
+태극(太極),수신(修身),3
+학습(學習),Chinese,8
+학습(學習),Lang,21
+학습(學習),Online courses,26
+학습(學習),Spanish,4
+학습(學習),online lecture,26
+한국 귀국 3차(2017 06),Interests,1
+한국성형,Interests,1
+한국성형,Spain,1

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title></title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+      {% load static %}
+      <link rel="stylesheet" href="{% static 'home/assets/css/bootstrap3.4/font-awesome.min.css' %}" />
+      <link rel="stylesheet" href="{% static 'home/assets/css/bootstrap3.4/bootstrap.min.css' %}" />
+      <link rel="stylesheet" href="{% static 'home/assets/css/bootstrap3.4/animate.css' %}" />
+      <link rel="stylesheet" href="{% static 'home/assets/css/bootstrap3.4/nanogallery.min.css' %}" />
+      <link rel="stylesheet" href="{% static 'home/assets/css/bootstrap3.4/app.css' %}" />
+      <link rel="stylesheet" href="{% static 'home/assets/css/bootstrap3.4/techstack.css' %}" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Italianno|Niconne|Norican|Parisienne|Romanesco|Sonsie+One|Tangerine&display=swap" >
+   </head>
+
+   <body>
+      <header id="top">
+         <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header" role="navigation">
+            <div class="container-fluid">
+               <!-- Brand and toggle get grouped for better mobile display -->
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed"
+                     data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                  </button>
+                  <a href="#top">
+                     <img src="{% static 'home/images/logo/Celestial-Being.png' %}" />
+                  </a>
+               </div>
+
+               <!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                     <li><a href="#top">Home</a></li>
+                     <!-- Projects list. -->
+                     <li><a href="#inews">iNews</a></li>
+                     <li><a href="#idatamap">iDatamap</a></li>
+                     <li><a href="#istock">iStock</a></li>
+                     <li><a href="#icareer">iCareer</a></li>
+                     <li><a href="#thesis">TFM</a></li>
+                     <!-- Non-projects -->
+                     <li><a href="#tech-skills">Skills</a></li>
+                     <li><a href="#cv">Hire Me</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                  </ul>
+               </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+         </nav>
+
+      </header>
+
+      <main class="container-fluid">
+
+         <section id="intro" class="row title-row">
+            <div class="fill-screen" style="background-image: url('static/home/images/backgrounds/toward-higher__w1280.JPG')">
+
+               <article id="principle-title" class="principle-title">
+                  <p>
+                     Data Scientist as a SW developer <br>Business Modeler as a Data Scientist
+                  </p>
+               </article>
+
+               <div id="link-buttons" class="row">
+
+                  <div class="link-button col-lg-2 col-lg-push-2 col-xs-3">
+                     <a class="btn" href="https://www.linkedin.com/in/jonghyuk-lee/">
+                        <i class="fab fa-linkedin fa-4x"></i>
+                     </a>
+                  </div>
+                  <div class="link-button col-lg-2 col-lg-push-2 col-xs-3">
+                     <a class="btn" href="https://github.com/innovata">
+                        <i class="fab fa-github-square fa-4x"></i>
+                     </a>
+                  </div>
+                  <div class="link-button col-lg-2 col-lg-push-2 col-xs-3">
+                     <a class="btn" href="https://www.kaggle.com/sammbong">
+                        <i class="fab fa-kaggle fa-4x"></i>
+                     </a>
+                  </div>
+                  <div class="link-button cv-button col-lg-2 col-lg-push-2 col-xs-3">
+                     <a class="btn" href="#cv">
+                        <i class="fas fa-address-card fa-4x"></i>
+                     </a>
+                  </div>
+
+
+               </div>
+
+               <div id="down-button" class="down-button">
+                  <a class="btn" href="#inews">
+                     <i class="fa fa-arrow-circle-down fa-4x"></i>
+                  </a>
+               </div>
+
+            </div>
+         </section>
+
+         <section id="projects" class="row">
+
+            <article id="inews" class="row tema-outer">
+               <div class="row article-title project-description">
+                  <h1>Korean News Analysis Project</h1>
+                  <p>This is for analyzing a variety of news in Korea using Machine learning, NLP.</p>
+                  <a href="admin/" class="pjt-app">Learn more</a>
+               </div>
+               <div class="row project-visualizing video-container">
+                  <!-- <div class="fill-screen fixed-attachment" style="background-image: url('static/home/images/Gundam-00/opening-exia.jpg')">
+                  </div> -->
+                  <video id="classifier3D" controls autoplay loop muted playsinline preload="yes" class="video-wallpaper">
+                      <source src="{% static 'home/videos/classifier3D.mp4' %}" type="video/mp4">
+                  </video>
+               </div>
+            </article>
+
+            <article id="idatamap" class="row tema-outer">
+               <div class="row article-title project-description">
+                  <h1>Data-Map Project</h1>
+                  <p>This is for visualizing PageRank of my data resources using D3.js, JavaScript, HTML5.</p>
+                  <a href="admin/" class="pjt-app">Learn more</a>
+               </div>
+               <div class="row project-visualizing">
+                  <!-- Mobile-First by Bootstrap -->
+                  <div class="embed-responsive embed-responsive-4by3 embed-responsive-16by9">
+                    <iframe id="idatamap-frame" class="embed-responsive-item" src="idatamap/"></iframe>
+                  </div>
+               </div>
+            </article>
+
+            <article id="istock" class="row tema-outer">
+               <div class="row article-title project-description">
+                  <h1>Stock Analysis Project</h1>
+                  <p>This is for finding some patterns in Korea Stock Market using Big data, Machine learning.</p>
+                  <a href="admin/" class="pjt-app">Learn more</a>
+               </div>
+
+               <div id="carousel-istock" class="project-visualizing carousel slide" data-ride="carousel">
+               <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                     <li data-target="#carousel-istock" data-slide-to="0" class="active"></li>
+                     <li data-target="#carousel-istock" data-slide-to="1"></li>
+                     <li data-target="#carousel-istock" data-slide-to="2"></li>
+                     <li data-target="#carousel-istock" data-slide-to="3"></li>
+                  </ol>
+               <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                     <div class="item active">
+                        <img src="{% static 'home/images/istock/calculable_cols_growthrate__한미약품(2018-2019).png' %}" alt="calculable_cols_growthrate__한미약품(2018-2019).png">
+                        <div class="carousel-caption">
+                           <h3>Scatter dist of trade-money depending on 6 variables(2018-2019)</h3>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <img src="{% static 'home/images/istock/prices_trdmoney_timetrend__삼성전자all.png' %}" alt="prices_trdmoney_timetrend__삼성전자all.png">
+                        <div class="carousel-caption">
+                           <h3>Prices & Trade-money's Timetrend (Samsung Electronics)</h3>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <img src="{% static 'home/images/istock/prices_trdmoney_timetrend__삼성전자.png' %}" alt="prices_trdmoney_timetrend__삼성전자.png">
+                        <div class="carousel-caption">
+                           <h3>Prices(High|Close) & Trade-money's Timetrend (Samsung Electronics)</h3>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <img src="{% static 'home/images/istock/2019-03-08.png' %}" alt="2019-03-08.png">
+                        <div class="carousel-caption">
+                           <h3></h3>
+                        </div>
+                     </div>
+                  </div>
+               <!-- Controls -->
+                  <a class="left carousel-control" href="#carousel-istock" role="button" data-slide="prev">
+                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                     <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-istock" role="button" data-slide="next">
+                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                  </a>
+               </div>
+            </article>
+
+            <article id="icareer" class="row tema-outer">
+               <div class="row article-title project-description">
+                  <h1>Career Analysis Project</h1>
+                  <p>This is for figuring out how matched I am using Data-Mining, Machine learning in LinkedIn.</p>
+                  <a href="admin/" class="pjt-app">Learn more</a>
+               </div>
+               <div class="row project-description">
+                  <p>Completed to collect data.</p>
+                  <p>Being analyzed...</p>
+               </div>
+            </article>
+
+            <article id="thesis" class="row tema-outer">
+               <div class="row article-title project-description">
+                  <h1>TFM</h1>
+                  <h3>(Trabajo Final de Master)</h3>
+                  <p><a href="http://mugi.webs.upv.es">Learn more</a></p>
+               </div>
+
+               <div id="carousel-tfm" class="project-visualizing carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                     <li data-target="#carousel-tfm" data-slide-to="0" class="active"></li>
+                     <li data-target="#carousel-tfm" data-slide-to="1"></li>
+                  </ol>
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                     <div class="item active">
+                        <img src="{% static 'home/images/thesis/system-design.png' %}" alt="system-design.png">
+                        <div class="carousel-caption">
+                           <h3>Syetem Architecture</h3>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <img src="{% static 'home/images/thesis/cluster3d.png' %}" alt="cluster3d.png">
+                        <div class="carousel-caption">
+                           <h3>Optimazed cluster combination</h3>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <img src="{% static 'home/images/thesis/3d.png' %}" alt="3d.png">
+                        <div class="carousel-caption">
+                           <h3>Finding optimazed cluster combination in 3D</h3>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <img src="{% static 'home/images/thesis/뉴스와-트위터의-분류값의-히스토그램.png' %}"
+                           alt="뉴스와-트위터의-분류값의-히스토그램.png">
+                        <div class="carousel-caption">
+                           <h3>Distribution of predicted labels</h3>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <img src="{% static 'home/images/thesis/ETRI언어분석-API의-사용과-미사용-간의-predicted-분포-차이.png' %}"
+                           alt="ETRI언어분석-API의-사용과-미사용-간의-predicted-분포-차이.png">
+                     </div>
+                     <div class="item">
+                        <img src="{% static 'home/images/thesis/Top-10-Press-time-trend-of-daily-published-news.png' %}"
+                           alt="Top-10-Press-time-trend-of-daily-published-news.png">
+                     </div>
+                     <div class="item">
+                        <img src="{% static 'home/images/thesis/Top-20-jounalists-time-trend-of-daily-published-news.png' %}"
+                           alt="Top-20-jounalists-time-trend-of-daily-published-news.png">
+                     </div>
+                     <div class="item">
+                        <img src="{% static 'home/images/thesis/Time-based-correlation-between-the-number-of-news-and-of-politician-tweets.png' %}"
+                           alt="Time-based-correlation-between-the-number-of-news-and-of-politician-tweets.png">
+                     </div>
+                  </div>
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#carousel-tfm" role="button" data-slide="prev">
+                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                     <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-tfm" role="button" data-slide="next">
+                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                  </a>
+               </div>
+
+               <div id="nanoGallery3" class="project-visualizing">
+                  <a href="{% static 'home/images/thesis/system-design.png' %}" data-ngthumb="{% static 'home/images/thesis/system-design.png' %}">System Architecture</a>
+                  <a href="{% static 'home/images/thesis/cluster3d.png' %}" data-ngthumb="{% static 'home/images/thesis/cluster3d.png' %}">Optimazed cluster combination</a>
+                  <a href="{% static 'home/images/thesis/3d.png' %}" data-ngthumb="{% static 'home/images/thesis/3d.png' %}">cluster combination in 3D</a>
+                  <a href="{% static 'home/images/thesis/뉴스와-트위터의-분류값의-히스토그램.png' %}" data-ngthumb="{% static 'home/images/thesis/뉴스와-트위터의-분류값의-히스토그램.png' %}">Distribution of predicted labels</a>
+                  <a href="{% static 'home/images/thesis/ETRI언어분석-API의-사용과-미사용-간의-predicted-분포-차이.png' %}" data-ngthumb="{% static 'home/images/thesis/ETRI언어분석-API의-사용과-미사용-간의-predicted-분포-차이.png' %}">Comparing predicted distribution</a>
+                  <a href="{% static 'home/images/thesis/Top-10-Press-time-trend-of-daily-published-news.png' %}" data-ngthumb="{% static 'home/images/thesis/Top-10-Press-time-trend-of-daily-published-news.png' %}">Top-10-Press-time-trend-of-daily-published-news</a>
+                  <a href="{% static 'home/images/thesis/Top-20-jounalists-time-trend-of-daily-published-news.png' %}" data-ngthumb="{% static 'home/images/thesis/Top-20-jounalists-time-trend-of-daily-published-news.png' %}">Top-20-jounalists-time-trend-of-daily-published-news</a>
+                  <a href="{% static 'home/images/thesis/Time-based-correlation-between-the-number-of-news-and-of-politician-tweets.png' %}" data-ngthumb="{% static 'home/images/thesis/Time-based-correlation-between-the-number-of-news-and-of-politician-tweets.png' %}">Time-based-correlation-between-the-number-of-news-and-of-politician-tweets</a>
+                  <!-- <div class="col-xs-6 col-md-12">
+                     <a href="{% static 'home/images/thesis/system-design.png' %}" data-ngthumb="{% static 'home/images/thesis/system-design.png' %}">System Architecture</a>
+                  </div>
+                  <div class="col-xs-6 col-md-12">
+                     <a href="{% static 'home/images/thesis/cluster3d.png' %}" data-ngthumb="{% static 'home/images/thesis/cluster3d.png' %}">Optimazed cluster combination</a>
+                  </div>
+                  <div class="col-xs-6 col-md-12">
+                     <a href="{% static 'home/images/thesis/3d.png' %}" data-ngthumb="{% static 'home/images/thesis/3d.png' %}">cluster combination in 3D</a>
+                  </div>
+                  <div class="col-xs-6 col-md-12">
+                     <a href="{% static 'home/images/thesis/뉴스와-트위터의-분류값의-히스토그램.png' %}" data-ngthumb="{% static 'home/images/thesis/뉴스와-트위터의-분류값의-히스토그램.png' %}">Distribution of predicted labels</a>
+                  </div>
+                  <div class="col-xs-6 col-md-12">
+                     <a href="{% static 'home/images/thesis/ETRI언어분석-API의-사용과-미사용-간의-predicted-분포-차이.png' %}" data-ngthumb="{% static 'home/images/thesis/ETRI언어분석-API의-사용과-미사용-간의-predicted-분포-차이.png' %}">Comparing predicted distribution</a>
+                  </div>
+                  <div class="col-xs-6 col-md-12">
+                     <a href="{% static 'home/images/thesis/Top-10-Press-time-trend-of-daily-published-news.png' %}" data-ngthumb="{% static 'home/images/thesis/Top-10-Press-time-trend-of-daily-published-news.png' %}">Top-10-Press-time-trend-of-daily-published-news</a>
+                  </div>
+                  <div class="col-xs-6 col-md-12">
+                     <a href="{% static 'home/images/thesis/Top-20-jounalists-time-trend-of-daily-published-news.png' %}" data-ngthumb="{% static 'home/images/thesis/Top-20-jounalists-time-trend-of-daily-published-news.png' %}">Top-20-jounalists-time-trend-of-daily-published-news</a>
+                  </div>
+                  <div class="col-xs-6 col-md-12">
+                     <a href="{% static 'home/images/thesis/Time-based-correlation-between-the-number-of-news-and-of-politician-tweets.png' %}" data-ngthumb="{% static 'home/images/thesis/Time-based-correlation-between-the-number-of-news-and-of-politician-tweets.png' %}">Time-based-correlation-between-the-number-of-news-and-of-politician-tweets</a>
+                  </div> -->
+               </div>
+            </article>
+
+            <article id="next-project" class="row tema-outer">
+               <div class="row article-title project-description">
+                  <h1>Next Project</h1>
+                  <!-- <p><a href="#">Learn more</a></p> -->
+                  <h1>Coming soon...</h1>
+               </div>
+            </article>
+
+         </section>
+
+         <section id="whoiam" class="row">
+
+            <article id="whoiam-splitter" class="row">
+               <!-- <div class="fill-screen fixed-attachment" style="background-image: url('static/home/images/Gundam-00/Title.png')"> -->
+               <div class="fill-screen fixed-attachment" style="background-image: url('static/home/images/backgrounds/STAND-ALONE-COMPLEX__Laughing-Man__2005.jpeg')">
+               </div>
+            </article>
+
+            <article id="tech-skills" class="row tema-outer">
+               <div class="row article-title project-description">
+                  <h1>Tech-Skills</h1>
+                  <p>These skills are what I can handle and it shows how many times those were used in my private projects.</p>
+                  <!-- <p><a href="https://naustud.io/tech-stack/">Learn more</a></p> -->
+               </div>
+               <div class="row project-visualizing">
+                  <svg id="teck-stack-svg" width="100%" height="700" font-family="sans-serif" font-size="10" text-anchor="middle"></svg>
+               </div>
+            </article>
+
+            <article id="cv" class="row tema-outer">
+               <!-- activity-article -->
+               <div class="row article-title project-description">
+                  <h1>Currículum Vitae</h1>
+                  <p>So then HIRE ME!</p>
+               </div>
+               <div class="row">
+                  <div class="activity-element col-md-4 wow fadeInLeft">
+                     <!-- <a href="https://drive.google.com/open?id=1LZoTDdZ1SbD5wQgZmpWoKWF2SZkNEMFe"> -->
+                     <a href="https://drive.google.com/drive/folders/19zVOOkxM74uUd5W8OfmCA2xEAYswbpqA?usp=sharing">
+                        <img src="{% static 'home/images/cv-thumnails/korean.png' %}" />
+                     </a>
+                     <div class="cardtext">
+                        <h2>Korean</h2>
+                     </div>
+                     <!-- <p><a href="https://www.kaggle.com/sammbong">Learn more</a></p> -->
+                  </div>
+                  <div class="activity-element col-md-4 wow fadeInLeft">
+                     <!-- <a href="https://drive.google.com/open?id=1mSwa4kXQJxbA0czO-5yTDy-Do6WUBf3N"> -->
+                     <a href="https://drive.google.com/drive/folders/1GzKUZy5tnrDuEfsz7oQg7Koc7kwdWNWV?usp=sharing">
+                        <img src="{% static 'home/images/cv-thumnails/english.png' %}" />
+                     </a>
+                     <div class="cardtext">
+                        <h2>English</h2>
+                     </div>
+                     <!-- <p><a href="https://github.com/innovata">Learn more</a></p> -->
+                  </div>
+                  <div class="activity-element col-md-4 wow fadeInLeft">
+                     <!-- <a href="https://drive.google.com/open?id=1-PoH6493PEqRT_zt7k-YcFWQ8RdGU87D"> -->
+                     <a href="https://drive.google.com/drive/folders/1zCdQQEqhJXUqgDlqwejVm7nc75vNboOz?usp=sharing">
+                        <img src="{% static 'home/images/cv-thumnails/spanish.png' %}" />
+                     </a>
+                     <div class="cardtext">
+                        <h2>Spanish</h2>
+                     </div>
+                     <!-- <p><a href="https://www.linkedin.com/in/jonghyuk-lee/" alt="LinkedIn Profile">Learn more</a></p> -->
+                  </div>
+               </div>
+            </article>
+
+         </section>
+      </main>
+
+      <footer class="container-fluid">
+         <section id="contact" class="foot-section row contact wow fadeInDown">
+            <div id="contact-title" class="contact article-title">
+               <h1>Contact</h1>
+            </div>
+            <div id="contact-info" class="contact row">
+               <article id="contact-email" class="contact-item private row col-lg-6">
+                  <div class="contact-icon col-sm-6 col-md-6 col-lg-6">
+                     <i class="fas fa-envelope fa-4x"></i>
+                  </div>
+                  <div class="contact-text col-sm-6 col-md-6 col-lg-6">
+                     <p>iinnovata@gmail.com</p>
+                  </div>
+               </article>
+               <article id="contact-phone" class="contact-item private row col-lg-6">
+                  <div class="contact-icon col-sm-6 col-md-6 col-lg-6">
+                     <i class="fas fa-phone-square fa-4x"></i>
+                 </div>
+                 <div class="contact-text col-sm-6 col-md-6 col-lg-6">
+                     <p>(+34) 671-184-343</p>
+                 </div>
+               </article>
+               <article id="contact-linkedin" class="contact-item social row col-lg-6">
+                  <div class="contact-icon col-sm-6 col-md-6 col-lg-6">
+                     <a href="https://www.linkedin.com/in/jonghyuk-lee/"><i class="fab fa-linkedin fa-4x"></i></a>
+                  </div>
+                  <div class="contact-text col-sm-6 col-md-6 col-lg-6">
+                  </div>
+               </article>
+               <article id="contact-twitter" class="contact-item social row col-lg-6">
+                  <div class="contact-icon col-sm-6 col-md-6 col-lg-6">
+                     <a href="https://twitter.com/iinnovata"><i class="fab fa-twitter-square fa-4x"></i></a>
+                  </div>
+                  <div class="contact-text col-sm-6 col-md-6 col-lg-6">
+                  </div>
+               </article>
+            </div>
+         </section>
+
+         <section id="copyright" class="foot-section">
+            <div class="row copyright">
+               <article class="left col-sm-8 col-xs-12">
+                  Copyright &copy; 2019 Innovata &reg;. All rights reserved.
+               </article>
+               <article class="right col-sm-4 col-xs-12">
+                  Design by &#9775; Innovata
+               </article>
+            </div>
+         </section>
+      </footer>
+
+      <script src="{% static 'home/assets/js/bootstrap3.4/app.js' %}"></script>
+      <script src="{% static 'home/assets/js/bootstrap3.4/jquery-2.1.1.min.js' %}"></script>
+      <script src="{% static 'home/assets/js/bootstrap3.4/bootstrap.min.js' %}"></script>
+      <script src="{% static 'home/assets/js/bootstrap3.4/classie.js' %}"></script>
+      <script src="{% static 'home/assets/js/bootstrap3.4/cbpAnimatedHeader.js' %}"></script>
+      <script src="{% static 'home/assets/js/bootstrap3.4/jquery.easing.1.3.js' %}"></script>
+      <script src="{% static 'home/assets/js/bootstrap3.4/wow.min.js' %}"></script>
+      <script src="{% static 'home/assets/js/bootstrap3.4/jquery.nanogallery.min.js' %}"></script>
+      <script src="{% static 'home/assets/js/bootstrap3.4/scrolling.js' %}"></script>
+
+   <!-- video-wallpaper Start -->
+      <!-- <script src="{% static 'home/assets/js/bootstrap3.4/jquery.fs.wallpaper.min.js' %}"></script>
+      <script type="text/javascript">
+         $(".video-wallpaper").background({
+             source: {
+                 // poster: "http://example.com/poster.jpg",
+                 mp4: "http://example.com/video.mp4",
+                 // webm: "http://example.com/video.webm",
+                 // ogg: "http://example.com/video.ogv"
+             }
+         });
+      </script> -->
+
+   <!-- video-wallpaper End -->
+
+   <!-- techstack-section Start -->
+      <script src="{% static 'home/assets/js/bootstrap3.4/techstack/d3.min.js' %}"></script>
+      <script src="{% static 'home/assets/js/bootstrap3.4/techstack/d3-legend.min.js' %}"></script>
+      <script src="{% static 'home/assets/js/bootstrap3.4/techstack/techstack.js' %}"></script>
+   </body>
+</html>

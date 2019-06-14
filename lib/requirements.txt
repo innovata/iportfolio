@@ -1,0 +1,17 @@
+django==2.1.5
+psycopg2-binary==2.7.7
+PyMySQL==0.9.3
+wheel==0.32.3
+Jinja2==2.10
+
+pandas==0.24.0
+requests==2.21.0
+beautifulsoup4==4.7.1
+PyMuPDF==1.14.8
+Pillow==5.4.1
+nltk==3.4
+konlpy==0.5.1
+
+idebug
+bson==0.5.8
+ilib

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Innovata Portfolio</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      {% load static %}
+      <link rel="stylesheet" href="{% static 'home/assets/css/app.css' %}">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+               <div class="navbar-header row">
+                  <a class="navbar-brand col-sm-1" href="#">
+                     <img src="{% static 'home/images/Celestial-Being.png' %}" class="img-fluid" alt="Innovata">
+                  </a>
+                  <button class="navbar-toggler col-sm-11" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Innovata</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">iNews</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">iStock</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">iDatamap</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">iCoreañol</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">iTravel</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">iElection</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">iTransportation</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Contact me</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <div class="container-fluid">
+         <div class="row">
+            <section id="intro" class="layout-lv1 col-sm-12">
+               <h3>Intro</h3>
+            </section>
+            <section id="project-show" class="layout-lv1 col-sm-12">
+
+               <div class="row">
+
+                  <article class="project layout-lv2 col-sm-12">
+                     <div class="row">
+                        <div class="layout-lv3 col-sm-12 col-md-6">
+                           <h2 class="major">Korean News Analysis Project</h2>
+      							<p>This is for analyzing a variety of news in Korea using Machine learning, NLP.</p>
+      							<a href="#" class="special">Learn more</a>
+                        </div>
+                        <div class="layout-lv3 col-sm-12 col-md-6">
+                           <video controls autoplay loop muted playsinline preload="yes">
+      								<source src="{% static 'home/videos/classifier3D.mp4' %}" type="video/mp4">
+      							</video>
+                        </div>
+                     </div>
+                  </article>
+                  <article class="project layout-lv2 col-sm-12">
+
+                     <div class="row">
+
+                        <div class="layout-lv3 col-sm-12 col-md-6">
+                           <h2 class="major">Stock Analysis Project</h2>
+                           <p>This is for finding some patterns in Korea Stock Market using Big data, Machine learning.</p>
+                           <a href="datamap/" class="special">Learn more</a>
+                           <!--
+                           -->
+                        </div>
+                        <div class="layout-lv3 col-sm-12 col-md-6">
+                           visualizing
+                           <!--
+                           <iframe title='Data-map brief' src="datamap/">
+                           -->
+                        </div>
+
+                     </div>
+                  </article>
+
+               </div>
+            </section>
+            <section id="project-list" class="layout-lv1 col-sm-12">
+               <h3>Other project list</h3>
+            </section>
+
+         </div>
+      </div>
+
+      <footer>
+         <h1>FOOTER</h1>
+
+   			<div class="inner">
+   				<h2 class="major">Get in touch</h2>
+   				<p>되도록이면 연락을 삼가하라.</p>
+   				<form method="post" action="#">
+   					<div class="fields">
+   						<div class="field">
+   							<label for="name">Name</label>
+   							<input type="text" name="name" id="name" />
+   						</div>
+   						<div class="field">
+   							<label for="email">Email</label>
+   							<input type="email" name="email" id="email" />
+   						</div>
+   						<div class="field">
+   							<label for="message">Message</label>
+   							<textarea name="message" id="message" rows="4"></textarea>
+   						</div>
+   					</div>
+   					<ul class="actions">
+   						<li><input type="submit" value="Send Message" /></li>
+   					</ul>
+   				</form>
+   				<ul class="contact">
+   					<li class="fa-home">
+   						Calle de Pinar 6, N 1A <br />
+   						28006 - Madrid <br />
+   						Spain <br />
+   					</li>
+   					<li class="fa-phone">(+34) 671-184-343</li>
+   					<li class="fa-envelope"><a href="#">iinnovata@gmail.com</a></li>
+   					<li class="fa-linkedin"><a href="https://www.linkedin.com/in/jonghyuk-lee/">linkedin.com/jonghyuk-lee</a></li>
+   				</ul>
+   				<ul class="copyright">
+   					<li>&copy; Sambong. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+   				</ul>
+   			</div>
+
+      </footer>
+   </body>
+</html>

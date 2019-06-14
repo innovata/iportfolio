@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title></title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+      {% load static %}
+      <link rel="stylesheet" href="{% static 'icareer/assets//css/bootstrap3.4/font-awesome.min.css' %}" />
+      <link rel="stylesheet" href="{% static 'icareer/assets//css/bootstrap3.4/bootstrap.min.css' %}" />
+      <link rel="stylesheet" href="{% static 'icareer/assets//css/bootstrap3.4/animate.css' %}" />
+      <link rel="stylesheet" href="{% static 'icareer/assets//css/bootstrap3.4/nanogallery.min.css' %}" />
+      <link rel="stylesheet" href="{% static 'icareer/assets//css/bootstrap3.4/app.css' %}" />
+      <link rel="stylesheet" href="{% static 'icareer/assets//css/bootstrap3.4/techstack.css' %}" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Italianno|Niconne|Norican|Parisienne|Romanesco|Sonsie+One|Tangerine&display=swap" >
+   </head>
+
+   <body>
+      <header id="top">
+         <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header" role="navigation">
+            <div class="container-fluid">
+               <!-- Brand and toggle get grouped for better mobile display -->
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed"
+                     data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                  </button>
+                  <a href="#top">
+                     <img src="{% static 'home/images/logo/Celestial-Being.png' %}" />
+                  </a>
+               </div>
+
+               <!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                     <li><a href="/">Home</a></li>
+                     <!-- Projects list. -->
+                     <li><a href="http://127.0.0.1:8000/inews/">iNews</a></li>
+                     <li><a href="http://127.0.0.1:8000/datamap/">iDatamap</a></li>
+                     <li><a href="http://127.0.0.1:8000/istock/">iStock</a></li>
+                     <li><a href="http://127.0.0.1:8000/icareer/">iCareer</a></li>
+                     <li><a href="http://127.0.0.1:8000/thesis/">TFM</a></li>
+                     <!-- Non-projects -->
+                     <li><a href="#contact">Contact</a></li>
+                  </ul>
+               </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+         </nav>
+
+      </header>
+
+      <main class="container-fluid">
+
+         <section id="intro" class="row title-row">
+
+         </section>
+
+         <section id="projects" class="row">
+
+         </section>
+
+         <section id="whoiam" class="row">
+
+            <article id="whoiam-splitter" class="row">
+               <!-- <div class="fill-screen fixed-attachment" style="background-image: url('static/home/images/Gundam-00/Title.png')"> -->
+               <div class="fill-screen fixed-attachment" style="background-image: url('static/home/images/backgrounds/STAND-ALONE-COMPLEX__Laughing-Man__2005.jpeg')">
+               </div>
+            </article>
+
+         </section>
+      </main>
+
+      <footer class="container-fluid">
+         <section id="contact" class="foot-section row contact wow fadeInDown">
+            <div id="contact-title" class="contact article-title">
+               <h1>Contact</h1>
+            </div>
+            <div id="contact-info" class="contact row">
+               <article id="contact-email" class="contact-item private row col-lg-6">
+                  <div class="contact-icon col-sm-6 col-md-6 col-lg-6">
+                     <i class="fas fa-envelope fa-4x"></i>
+                  </div>
+                  <div class="contact-text col-sm-6 col-md-6 col-lg-6">
+                     <p>iinnovata@gmail.com</p>
+                  </div>
+               </article>
+               <article id="contact-phone" class="contact-item private row col-lg-6">
+                  <div class="contact-icon col-sm-6 col-md-6 col-lg-6">
+                     <i class="fas fa-phone-square fa-4x"></i>
+                 </div>
+                 <div class="contact-text col-sm-6 col-md-6 col-lg-6">
+                     <p>(+34) 671-184-343</p>
+                 </div>
+               </article>
+               <article id="contact-linkedin" class="contact-item social row col-lg-6">
+                  <div class="contact-icon col-sm-6 col-md-6 col-lg-6">
+                     <a href="https://www.linkedin.com/in/jonghyuk-lee/"><i class="fab fa-linkedin fa-4x"></i></a>
+                  </div>
+                  <div class="contact-text col-sm-6 col-md-6 col-lg-6">
+                  </div>
+               </article>
+               <article id="contact-twitter" class="contact-item social row col-lg-6">
+                  <div class="contact-icon col-sm-6 col-md-6 col-lg-6">
+                     <a href="https://twitter.com/iinnovata"><i class="fab fa-twitter-square fa-4x"></i></a>
+                  </div>
+                  <div class="contact-text col-sm-6 col-md-6 col-lg-6">
+                  </div>
+               </article>
+            </div>
+         </section>
+
+         <section id="copyright" class="foot-section">
+            <div class="row copyright">
+               <article class="left col-sm-8 col-xs-12">
+                  Copyright &copy; 2019 Innovata &reg;. All rights reserved.
+               </article>
+               <article class="right col-sm-4 col-xs-12">
+                  Design by &#9775; Innovata
+               </article>
+            </div>
+         </section>
+      </footer>
+
+      <script src="{% static 'icareer/assets/js/bootstrap3.4/app.js' %}"></script>
+      <script src="{% static 'icareer/assets/js/bootstrap3.4/jquery-2.1.1.min.js' %}"></script>
+      <script src="{% static 'icareer/assets/js/bootstrap3.4/bootstrap.min.js' %}"></script>
+      <script src="{% static 'icareer/assets/js/bootstrap3.4/classie.js' %}"></script>
+      <script src="{% static 'icareer/assets/js/bootstrap3.4/cbpAnimatedHeader.js' %}"></script>
+      <script src="{% static 'icareer/assets/js/bootstrap3.4/jquery.easing.1.3.js' %}"></script>
+      <script src="{% static 'icareer/assets/js/bootstrap3.4/wow.min.js' %}"></script>
+      <script src="{% static 'icareer/assets/js/bootstrap3.4/jquery.nanogallery.min.js' %}"></script>
+      <script src="{% static 'icareer/assets/js/bootstrap3.4/scrolling.js' %}"></script>
+   <!-- techstack-section Start -->
+      <script src="{% static 'icareer/assets/js/bootstrap3.4/techstack/d3.min.js' %}"></script>
+      <script src="{% static 'icareer/assets/js/bootstrap3.4/techstack/d3-legend.min.js' %}"></script>
+      <script src="{% static 'icareer/assets/js/bootstrap3.4/techstack/techstack.js' %}"></script>
+   <!-- techstack-section End -->
+   </body>
+</html>

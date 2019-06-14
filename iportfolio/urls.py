@@ -18,7 +18,8 @@ from django.urls import path, include
 
 urlpatterns = [
     path('', include('home.urls')),
-    path('datamap/', include('datamapapp.urls')),
+    path('idatamap/', include('idatamap.urls')),
+    path('icareer/', include('icareer.urls')),
     # djaong default setting.
     path('admin/', admin.site.urls),
 ]

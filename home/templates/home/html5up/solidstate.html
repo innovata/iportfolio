@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Innovata Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		{% load static %}
+		<link rel="stylesheet" href="{% static 'home/assets/css/main.css' %}" />
+		<noscript><link rel="stylesheet" href="{% static 'home/assets/css/noscript.css' %}" /></noscript>
+		<link rel="stylesheet" href="{% static 'home/assets/css/my.css' %}">
+		<!--
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		-->
+
+
+	</head>
+	<body class="is-preload">
+
+	<!-- Intro -->
+		<div id="intro">
+
+			<!-- Header -->
+				<header id="header" class="alt">
+					<h1><a href="">Innovata Portfolio</a></h1>
+					<nav>
+						<a href="#menu"></a> <!-- Menu -->
+					</nav>
+				</header>
+
+			<!-- Menu -->
+				<nav id="menu">
+					<div class="inner">
+						<h2>Menu</h2>
+						<ul class="links">
+							<li><a href="">Home</a></li>
+							<li><a href="#one">news</a></li>
+							<li><a href="#two">data-map</a></li>
+							<li><a href="#three">stock</a></li>
+							<li><a href="#three">p1</a></li>
+							<li><a href="#three">p2</a></li>
+							<li><a href="#three">p3</a></li>
+							<li><a href="#three">p4</a></li>
+							<li><a href="#three">p5</a></li>
+							<li><a href="#three">p6</a></li>
+							<li><a href="#three">p7</a></li>
+							<li><a href="#">Log In</a></li>
+							<li><a href="#">Sign Up</a></li>
+						</ul>
+						<a href="#" class="close">Close</a>
+					</div>
+				</nav>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="inner">
+						<!-- <div class="logo"><span class="icon fa-diamond"></span></div> -->
+						<h2>Innovata</h2>
+						<p>Data analyst, Software developer</p>
+					</div>
+				</section>
+		</div>
+
+	<!-- Main -->
+		<section id="main">
+
+			<!-- One -->
+				<section id="one" class="wrapper spotlight style1">
+					<div class="inner">
+						<div class="project-briefshot">
+							<video width="100%" controls autoplay loop muted playsinline preload="yes">
+								<source src="{% static 'home/videos/classifier3D.mp4' %}" type="video/mp4">
+							</video>
+						</div>
+						<div class="content">
+							<h2 class="major">Korean News Analysis Project</h2>
+							<p>This is for analyzing a variety of news in Korea using Machine learning, NLP.</p>
+							<a href="#" class="special">Learn more</a>
+						</div>
+					</div>
+				</section>
+
+			<!-- Two -->
+				<section id="two" class="wrapper alt spotlight style2">
+					<div class="inner">
+						<!-- <a href="#" class="image"><img src="{% static 'home/images/pic03.jpg' %}" alt="" /></a> -->
+						<iframe title='Data-map brief' class="project-briefshot" src="datamap/" width="100%" height="500px">
+						</iframe>
+						<div class="content">
+							<h2 class="major">Data-Map Project</h2>
+							<p>This is for visualizing PageRank of my data resources using D3.js, JavaScript, HTML5.</p>
+							<a href="datamap/" class="special">Learn more</a>
+						</div>
+					</div>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="wrapper spotlight style3">
+					<div class="inner">
+						<a href="#" class="project-briefshot"><img src="{% static 'home/images/pic03.jpg' %}" alt="" /></a>
+						<div class="content">
+							<h2 class="major">Stock Analysis Project</h2>
+							<p>This is for finding some patterns in Korea Stock Market using Big data, Machine learning.</p>
+							<a href="#" class="special">Learn more</a>
+						</div>
+					</div>
+				</section>
+
+			<!-- Four -->
+				<section id="four" class="wrapper alt style1">
+					<div class="inner">
+						<h2 class="major">Other Projects</h2>
+						<p>These are other projects.</p>
+						<section class="features">
+							<article>
+								<a href="#" class="image"><img src="{% static 'home/images/pic04.jpg' %}" alt="" /></a>
+								<h3 class="major">career</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+								<a href="#" class="special">Learn more</a>
+							</article>
+							<article>
+								<a href="#" class="image"><img src="{% static 'home/images/pic05.jpg' %}" alt="" /></a>
+								<h3 class="major">life pattern</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+								<a href="#" class="special">Learn more</a>
+							</article>
+							<article>
+								<a href="#" class="image"><img src="{% static 'home/images/pic06.jpg' %}" alt="" /></a>
+								<h3 class="major">travel</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+								<a href="#" class="special">Learn more</a>
+							</article>
+							<article>
+								<a href="#" class="image"><img src="{% static 'home/images/pic07.jpg' %}" alt="" /></a>
+								<h3 class="major">election</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+								<a href="#" class="special">Learn more</a>
+							</article>
+						</section>
+						<ul class="actions">
+							<li><a href="#" class="button">Browse All</a></li>
+						</ul>
+					</div>
+				</section>
+
+		</section>
+
+	<!-- Footer -->
+		<section id="footer">
+			<div class="inner">
+				<h2 class="major">Get in touch</h2>
+				<p>되도록이면 연락을 삼가하라.</p>
+				<form method="post" action="#">
+					<div class="fields">
+						<div class="field">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="4"></textarea>
+						</div>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" /></li>
+					</ul>
+				</form>
+				<ul class="contact">
+					<li class="fa-home">
+						Calle de Pinar 6, N 1A <br />
+						28006 - Madrid <br />
+						Spain <br />
+					</li>
+					<li class="fa-phone">(+34) 671-184-343</li>
+					<li class="fa-envelope"><a href="#">iinnovata@gmail.com</a></li>
+					<li class="fa-linkedin"><a href="https://www.linkedin.com/in/jonghyuk-lee/">linkedin.com/jonghyuk-lee</a></li>
+					<!-- Private
+					<li class="fa-twitter"><a href="#">twitter.com/private-info</a></li>
+					<li class="fa-facebook"><a href="#">facebook.com/private-info</a></li>
+					<li class="fa-instagram"><a href="#">instagram.com/private-info</a></li>
+					-->
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Sambong. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</section>
+
+
+		<!-- Scripts -->
+		<script src="{% static 'home/assets/js/jquery.min.js' %}"></script>
+		<script src="{% static 'home/assets/js/jquery.scrollex.min.js' %}"></script>
+		<script src="{% static 'home/assets/js/browser.min.js' %}"></script>
+		<script src="{% static 'home/assets/js/breakpoints.min.js' %}"></script>
+		<script src="{% static 'home/assets/js/util.js' %}"></script>
+		<script src="{% static 'home/assets/js/main.js' %}"></script>
+
+	</body>
+</html>

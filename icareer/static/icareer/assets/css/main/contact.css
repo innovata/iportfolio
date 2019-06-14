@@ -1,0 +1,48 @@
+/* Contact */
+
+	ul.contact {
+		list-style: none;
+		padding: 0;
+	}
+
+		ul.contact li {
+			text-decoration: none;
+			margin: 2.5em 0 0 0;
+			padding: 0 0 0 3.25em;
+			position: relative;
+		}
+
+			ul.contact li:before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				font-family: FontAwesome;
+				font-style: normal;
+				font-weight: normal;
+				text-transform: none !important;
+			}
+
+			ul.contact li:before {
+				border-radius: 100%;
+				border: solid 2px rgba(255, 255, 255, 0.125);
+				display: inline-block;
+				font-size: 0.8em;
+				height: 2.5em;
+				left: 0;
+				line-height: 2.35em;
+				position: absolute;
+				text-align: center;
+				top: 0;
+				width: 2.5em;
+			}
+
+			ul.contact li:first-child {
+				margin-top: 0;
+			}
+
+		@media screen and (max-width: 736px) {
+
+			ul.contact li {
+				margin: 1.5em 0 0 0;
+			}
+
+		}
